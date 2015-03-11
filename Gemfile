@@ -35,6 +35,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 #waaaaay better than webrick
 gem 'thin'
 
+gem 'stamp'
+
 group :development, :test do
   # quiets logs
   gem 'quiet_assets'
