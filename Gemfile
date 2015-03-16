@@ -39,7 +39,7 @@ gem 'thin'
 
 gem 'stamp'
 
-
+gem 'awesome_print'
 
 group :development, :test do
   # quiets logs
