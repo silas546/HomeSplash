@@ -12,5 +12,6 @@ class HomeController < ApplicationController
     else
       "Gnight!"
     end
+    @quip = Quote.all.sample.quip
   end
 end
