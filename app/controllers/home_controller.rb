@@ -13,5 +13,6 @@ class HomeController < ApplicationController
       "Gnight!"
     end
     @quip = Quote.all.sample.quip
+    #jdjdf
   end
 end
