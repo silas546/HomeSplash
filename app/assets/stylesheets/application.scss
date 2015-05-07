@@ -16,13 +16,17 @@
  */
 
 html {
-  font-family: Nanum Pen Script, American Typewriter;
+  font-family: American Typewriter;
   font-size: 20px;
   color: white;
+  text-decoration: none;
 }
 
 body {
   
+}
+table {
+  text-decoration: none
 }
 
 .shadowed {
@@ -42,6 +46,11 @@ color: white;
 
 #footer a {
   color:white;
+  text-decoration: none;
+}
+
+div#nav {
+  font-family: serif;
   text-decoration: none;
 }
 

@@ -1,4 +1,5 @@
 class HomeController < ApplicationController
+  skip_before_filter :require_login
   def index
     @current_time = Time.now.stamp_like("Feb 1st 9:00 pm")
     # homework - implement stamp gem
